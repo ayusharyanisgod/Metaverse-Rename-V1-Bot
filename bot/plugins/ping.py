@@ -18,6 +18,8 @@ async def ping_handler(c: Client, m: "types.Message"):
                        reply_markup=types.InlineKeyboardMarkup([[
                            types.InlineKeyboardButton("Show Settings",
                                                       callback_data="showSettings")
+                           types.InlineKeyboardButton("Show Settings",
+                           callback_data="showSetting")
                        ]]))
 
 
